@@ -1,47 +1,163 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Peter's Auto Repair",
+  "tagline": "Forty years on Victory. Family-owned, family-run.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "eyebrow": "BURBANK · S. VICTORY BLVD · EST. 1985",
+    "heading": "Forty years under the hood.",
+    "subheading": "An independent family-run shop on Victory Boulevard. Diagnostic, brakes, tires, and the kind of write-up your grandfather would have recognized. Free written quote on every job.",
+    "ctaText": "Call for an estimate",
+    "ctaLink": "tel:8189722026",
+    "image": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=1800&q=80&auto=format&fit=crop"
   },
   "about": {
-    "heading": "About Us",
+    "label": "In the bay",
+    "heading": "A family shop. Tools down at five.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "Peter's has been on the same corner of South Victory Boulevard since 1985. Same shop, same family, same flat-rate write-ups. The signs on the wall are older than the lifts.",
+      "We work on what Burbank drives — daily-driver sedans, family SUVs, the occasional studio-fleet courier. We pass on anything we're not the right shop for, and we'll tell you the name of the place we'd send a friend instead.",
+      "Closed Saturday and Sunday on purpose. Two days off a week means no one is rushing the inspection on a Friday at four-thirty."
     ]
   },
+  "guarantees": [
+    {
+      "icon": "$",
+      "title": "Written quote",
+      "text": "Itemized, on paper. The number you sign for is the number on the invoice."
+    },
+    {
+      "icon": "✓",
+      "title": "OEM-first",
+      "text": "We use OEM parts unless you'd rather we don't — and we'll show you the catalog page either way."
+    },
+    {
+      "icon": "★",
+      "title": "Two-year warranty",
+      "text": "Any repair we perform is covered for 24 months or 24,000 miles, whichever comes first."
+    },
+    {
+      "icon": "☎",
+      "title": "We pick up",
+      "text": "When you call, you get the front desk — not an answering service or a menu tree."
+    }
+  ],
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Diagnostic",
+      "description": "Scope, scan, and a printed report. We tell you the cause before we ever pull a wrench.",
+      "price": "$95"
+    },
+    {
+      "title": "Brakes — pads & rotors",
+      "description": "Pads, rotors, hardware, fluid bleed. Spec-matched for your year, make, and model. Same-day in most cases.",
+      "price": "from $385"
+    },
+    {
+      "title": "Tires & alignment",
+      "description": "Four tires mounted and balanced plus a four-wheel alignment. We carry Michelin, Bridgestone, Continental, and Falken.",
+      "price": "from $640"
+    },
+    {
+      "title": "Oil + 27-point service",
+      "description": "Synthetic-blend or full-synthetic oil, new filter, top-offs, and a documented twenty-seven-point inspection.",
+      "price": "from $85"
+    },
+    {
+      "title": "Cooling system",
+      "description": "Coolant flush, hose check, thermostat replacement if needed, pressure test. We catch leaks before they catch the radiator.",
+      "price": "from $225"
+    },
+    {
+      "title": "Pre-purchase inspection",
+      "description": "Buying used? We'll inspect bumper to bumper and email you a PDF before you write the check. About 45 minutes.",
+      "price": "$120 flat"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Howard B.",
+      "rating": 5,
+      "context": "Twenty-year customer",
+      "text": "I've taken three generations of family cars to Peter's. They've never recommended a service I didn't need, and they've never missed one I did. That's worth a thousand-dollar-a-year insurance policy on its own."
+    },
+    {
+      "name": "Maritza C.",
+      "rating": 5,
+      "context": "First visit · referred by a neighbor",
+      "text": "Came in for a clicking sound that two chain shops couldn't pin down. Peter's diagnosed it in twenty minutes, fixed it under warranty from the OEM, and didn't charge me a cent."
+    },
+    {
+      "name": "Bryan T.",
+      "rating": 4,
+      "context": "Studio fleet driver",
+      "text": "Honest shop, honest quotes, honest mechanics. The only place in Burbank I've trusted with the courier fleet for the last six years. They book up two weeks out — plan ahead."
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 972-2026",
+    "email": "hello@petersautorepair.com",
+    "address": "1220 S Victory Blvd, Burbank, CA 91502",
+    "mapEmbedQuery": "Peter's Auto Repair, 1220 S Victory Blvd, Burbank, CA 91502",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
+      "Monday": "8:00 AM – 5:00 PM",
+      "Tuesday": "8:00 AM – 5:00 PM",
+      "Wednesday": "8:00 AM – 5:00 PM",
+      "Thursday": "8:00 AM – 5:00 PM",
+      "Friday": "8:00 AM – 5:00 PM",
+      "Saturday": "Closed",
       "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+    }
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/p/Peters-Auto-Repair-and-Tires-100057573334139/"
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "Peter's Auto Repair — A family shop on Victory Blvd · Burbank, CA",
+    "description": "Family-run independent auto shop in Burbank since 1985. Diagnostic, brakes, tires, alignment, pre-purchase inspections. Written quotes free on every job.",
+    "keywords": [
+      "Burbank auto repair",
+      "Burbank mechanic Victory Blvd",
+      "Burbank brake service",
+      "Burbank tires and alignment",
+      "pre-purchase inspection Burbank",
+      "family auto shop Burbank"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "primaryColor": "#1E3A8A",
+    "accentColor": "#B91C1C",
+    "fontFamily": "alfaslab-plexsans"
+  },
+  "designSystem": {
+    "searchQuery": "mid-century family auto shop americana garage 1950s neighborhood honest signage retro",
+    "styleName": "Mid-century Americana (vintage service-station)",
+    "pattern": "Service Sheet (Pricing-Focused Landing reframed)",
+    "palette": {
+      "primary": "#1E3A8A",
+      "secondary": "#172554",
+      "cta": "#B91C1C",
+      "accent": "#B45309",
+      "background": "#FEF7E5",
+      "text": "#1C1917",
+      "muted": "#78716C",
+      "border": "#1C1917",
+      "surface": "#E7E0CC"
+    },
+    "typography": {
+      "heading": "Alfa Slab One",
+      "body": "IBM Plex Sans",
+      "label": "Fira Mono",
+      "mood": "vintage americana, service-station signage, slab-serif, navy + tomato + cognac, retro garage"
+    },
+    "moves": [
+      "Diagonal navy+tomato barber-stripe top bar (8px tall)",
+      "Round red enamel 'WRITTEN QUOTES' shop badge rotated -8deg over the hero photo",
+      "5px tomato drop-shadow stack on photo frame (vintage poster offset shadow)",
+      "Vintage 'ticket' cards with notched circular cutouts for stats and address blocks",
+      "Service items as 2-col bordered cards with №01 red tag + navy 5px offset shadow",
+      "Reviews typeset as customer-slip tickets with dashed top border and CUSTOMER №001 mono header",
+      "Hours table on navy with dashed cream divider lines and cognac mono labels",
+      "Tomato-red full-bleed CTA with navy slab button + offset INK shadow",
+      "INK-black footer with cognac mono '/ Family-owned · Burbank · Since 1985' tagline"
+    ]
   }
 }
